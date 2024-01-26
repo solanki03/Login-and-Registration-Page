@@ -1,0 +1,5 @@
+List of Features should be added ----
+
+1. After login through LOGIN FORM succesfully, there should be another page which will show up. It can contain anything you want.
+2. If a user who is not registered in the DataBase fill his/her details in the LOGIN FORM or I can say when the Login failed, it'll show the msg: "User not registered" and move to the REGISTER FORM instantly.
+3. while Registering new user in database, along with the username, we should also check if the password & the re-entered password are same or not. If the password is mis-matched then a pop-up box will show a msg "Enter your password correctly!" until both of them are matched. 
