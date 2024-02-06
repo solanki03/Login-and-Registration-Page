@@ -1,0 +1,11 @@
+List of Features should be added ----
+
+1. After login through LOGIN FORM succesfully, there should be another page which will show up. It can contain anything you want.
+2. If a user who is not registered in the DataBase fill his/her details in the LOGIN FORM or I can say when the Login failed, it'll show the msg: "User not registered" and move to the REGISTER FORM instantly.
+3. while Registering new user in database, along with the username, we should also check if the password & the re-entered password are same or not. If the password is mis-matched then a pop-up box will show a msg "Enter your password correctly!" until both of them are matched. 
+
+
+if login went successfully then go to welcome page.
+if registretion went succesfully then go toLogin page. if user login succesfully then go to welcome page.
+fetch the user name from it and show it in welcome page.
+fetch date and time. show it on screen and diplay good morning, noon, afternoon, evening

@@ -23,9 +23,7 @@ public class RegisterFormGUI extends Form{
         super("Login");
         addGUIComponents();
     }
-    /**
-     * 
-     */
+
     public void addGUIComponents(){
         //Create a register Label
         JLabel registerLabel = new JLabel("Register");
@@ -118,7 +116,7 @@ public class RegisterFormGUI extends Form{
                 }
                 else{
                     //invalid user input
-                    JOptionPane.showMessageDialog(RegisterFormGUI.this, "Error: Username must be atleast 6 character long \n and or password must match");
+                    JOptionPane.showMessageDialog(RegisterFormGUI.this, "Error: Username must be atleast 6 character long \n or password must match");
                 }
             }
             

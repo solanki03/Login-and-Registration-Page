@@ -83,6 +83,11 @@ public class LoginFormGui extends Form{
                 if(MyJDBC.validateLogin(username, password)){
                     // login successful
                     JOptionPane.showMessageDialog(LoginFormGui.this, "Login Successful...");
+
+                    // close the current window and open WelcomePage
+                    setVisible(false);
+                    new WelcomePage(username).setVisible(true);
+                    
                 }else{
                     //login failed
                     JOptionPane.showMessageDialog(LoginFormGui.this, "Login failed...");
