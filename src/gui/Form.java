@@ -1,5 +1,6 @@
 package gui;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 import Constant.CommonConstants;
@@ -24,6 +25,10 @@ public class Form extends JFrame {
 
         //create the background color of GUI
         getContentPane().setBackground(CommonConstants.PRIMARY_COLOR);
+
+        // set Image Icon of the JFrame
+        ImageIcon image1 = new ImageIcon("src\\Icon\\img.png"); 
+        this.setIconImage(image1.getImage());// change icon of frame
     }
     
 }
